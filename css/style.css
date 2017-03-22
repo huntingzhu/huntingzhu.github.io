@@ -1588,7 +1588,11 @@ form.contact_form {
 		margin-top: 60px;
 	}
 }
-
+@media screen and (min-width: 768px) {
+	#portfolio .container {
+		min-height: 400px;
+	}
+}
 @media screen and (max-width: 768px) {
 	.header h1 {
 		width: 67%;
