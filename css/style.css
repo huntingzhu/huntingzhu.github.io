@@ -836,7 +836,10 @@ ul.simplefilter {
 	.simplefilter li, .multifilter li, .sortandshuffle li {
 		margin-bottom: 1em;
 	}
+
 }
+
+
 
 @media(max-width:414px) {
 	ul.simplefilter {
@@ -1669,6 +1672,15 @@ form.contact_form {
 	.portfolio figcaption h3 {
 		margin-top: 100px;
 	}
+	.work-info {
+		top: 10px;
+		position: relative;
+	}
+	.resume-tag p {
+		display: block;
+		height: 120px;
+		overflow-y: scroll;
+	}
 }
 
 @media screen and (max-width: 767px) {
@@ -2047,73 +2059,20 @@ form.contact_form {
 	.aitsresumewthree h4.title {
 		width: 31%;
 	}
-	.work-info h4 {
-		padding: 10px 25px;
-		font-size: 14px;
-	}
-	.work-grid {
-		width: 100%;
-	}
-	.work-left {
-		height: 50px;
-		text-align: left;
-		padding: 0;
-	}
-	.work-info h4 {
-		padding: 10px 25px;
-		font-size: 14px;
-		margin-left: 80px;
-	}
-	.work-info p {
-		text-align: left;
-	}
-	.work-right {
-		height: 100px;
-		text-align: right;
-		border: none;
-		padding: 0;
-	}
-	.work-info h5 {
-		position: absolute;
-		top: -51px;
-		right: 16%;
-		font-size: 14px;
-		margin-bottom: 0;
-	}
-	.work-right.work-right2 {
-		height: 50px;
-		float: left;
-		text-align: left;
-	}
-	.work-info .work-right2 h4 {
-		margin-left: 235px;
-	}
-	.work-info .work-left2 h5 {
-		top: -51px;
-		right: 49%;
-	}
-	.work-left2 {
-		height: 100px;
-	}
-	.work-right.work-right2 {
-		min-height: 50px;
-	}
+
 	ul#myList {
 		margin-bottom: 0;
+	}
+	ul#myList li{
+		position: relative;
 	}
 	li.aitsaitsresumewthreeli-1 {
 		margin-bottom: 0;
 	}
-	.work-info h5.comp {
-		right: 15%;
-	}
-	.work-info h5.univ {
-		right: 18%;
-	}
-	.work-info h5.sch {
-		right: 25%;
-	}
+
 	#loadMore, #showLess {
+		position: relative;
+		top: 20px;
 		padding: 7px 0;
 		font-size: 13px;
 	}
@@ -2191,30 +2150,7 @@ form.contact_form {
 	.aitsresumewthree h4.title {
 		width: 36%;
 	}
-	.work-right {
-		height: 125px;
-	}
-	.work-info h4 {
-		margin-left: 40px;
-	}
-	.work-info h5 {
-		right: 12%;
-	}
-	.work-left2 {
-		height: 125px;
-	}
-	.work-info .work-right2 h4 {
-		margin-left: 200px;
-	}
-	.work-info h5.comp {
-		right: 11%;
-	}
-	.work-info h5.univ {
-		right: 14%;
-	}
-	.work-info h5.sch {
-		right: 22%;
-	}
+
 	#loadMore, #showLess {
 		width: 35%;
 	}
@@ -2229,243 +2165,9 @@ form.contact_form {
 	}
 }
 
-@media screen and (max-width: 384px) {
-	.agileabout-grid-1 h3 {
-		width: 32%;
-	}
-	.header h2 {
-		width: 50%;
-	}
-	.agileabout-grid-3 h3 {
-		width: 31%;
-	}
-	.wthreeskills-grid-1 h4 {
-		width: 70%;
-	}
-	.wthreeskills-grid-2 h4 {
-		width: 58%;
-	}
-	.aitsresumewthree h4.title {
-		width: 40%;
-	}
-	.work-info h4 {
-		margin-left: 27px;
-	}
-	.work-info h5 {
-		right: 8%;
-	}
-	.work-info .work-right2 h4 {
-		margin-left: 185px;
-	}
-	.work-info h5.comp {
-		right: 7%;
-	}
-	.aitsresumewthree h4.title {
-		width: 37%;
-	}
-	.work-info h5.univ {
-		right: 11%;
-	}
-	.work-info h5.sch {
-		right: 19%;
-	}
-}
 
-@media screen and (max-width: 375px) {
-	.agileabout-grid-1 h3 {
-		width: 33%;
-	}
-	.wthreeskills-grid-1 h4 {
-		width: 72%;
-	}
-	.wthreeskills-grid-2 h4 {
-		width: 59%;
-	}
-	.aitsresumewthree h4.title {
-		width: 41%;
-	}
-	.work-info h4 {
-		margin-left: 20px;
-	}
-	.work-info .work-right2 h4 {
-		margin-left: 180px;
-	}
-	.work-info h5.comp {
-		right: 6%;
-	}
-	.work-info h5.univ {
-		right: 10%;
-	}
-}
 
-@media screen and (max-width: 360px) {
-	.navigation {
-		margin-left: -15px;
-	}
-	.agileabout-grid-1 h3 {
-		width: 34%;
-	}
-	.agileabout-grid-3 h3 {
-		width: 32%;
-	}
-	.wthreeskills-grid-1 h4 {
-		width: 76%;
-	}
-	.wthreeskills-grid-2 h4 {
-		width: 62%;
-	}
-	.aitsresumewthree h4.title {
-		width: 43%;
-	}
-	.work-right {
-		height: 150px;
-	}
-	.work-info h4 {
-		margin-left: 15px;
-	}
-	.work-info h5 {
-		right: 5%;
-	}
-	.work-left2 {
-		height: 150px;
-	}
-	.work-info .work-right2 h4 {
-		margin-left: 173px;
-	}
-	.work-info h4 {
-		margin-left: 10px;
-	}
-	.work-info h5.comp {
-		right: 5%;
-	}
-	.work-info h5.univ {
-		right: 9%;
-	}
-	.work-info h5.sch {
-		right: 18%;
-	}
-}
 
-@media screen and (max-width: 320px) {
-	.header img {
-		height: 215px;
-	}
-	.header h1 {
-		padding: 8px 0;
-		font-size: 18px;
-		top: 5%;
-		border: 1px solid #FFF;
-	}
-	.header h2 {
-		width: 60%;
-		padding: 7px 0;
-		font-size: 13px;
-		font-weight: 700;
-		top: 24%;
-	}
-	.navigation {
-		margin-left: -30px;
-		top: 20%;
-	}
-	.agileabout, .wthreeskills, .aitsresumewthree, .portfolio, .agileinfosclients, .contact {
-		padding: 30px 0;
-	}
-	.agileabout h2, .wthreeskills h3, .aitsresumewthree h3, .portfolio h3, .agileinfosclients h3, .wthreetestimonials h3, .contact h3 {
-		font-size: 28px;
-		margin-bottom: 20px;
-	}
-	.agileabout h2 {
-		margin-bottom: 20px;
-	}
-	.agileabout-grid h3, .wthreeskills-grid h4, .aitsresumewthree h4.title {
-		font-size: 18px;
-		padding-bottom: 5px;
-		margin-bottom: 10px;
-	}
-	.agileabout-grid-1 h3 {
-		width: 35%;
-	}
-	.agileabout-grid-2-image {
-		width: 70%;
-		left: 15%;
-		top: -165px;
-	}
-	.agileabout-grid-3 h3 {
-		width: 34%;
-	}
-	.agileabout-grid-3 ul li .li1, .agileabout-grid-3 ul li .li3 {
-		font-size: 13px;
-	}
-	.wthreeskills-grid-1 h4 {
-		width: 78%;
-	}
-	.resp-tab-item {
-		padding: 5px 0;
-	}
-	.resp-tab-item span {
-		font-size: 13px;
-		letter-spacing: 0;
-	}
-	.resp-tab-content p {
-		font-size: 13px;
-	}
-	.wthreeskills-grid-2 h4 {
-		width: 64%;
-	}
-	.aitsresumewthree h4.title {
-		width: 44%;
-	}
-	.work-info h4 {
-		padding: 7px 20px;
-		font-size: 13px;
-		margin-left: 15px;
-	}
-	.work-info h4:before {
-		top: 6.5px;
-		right: -13px;
-		border-width: 8px 0 8px 13px;
-	}
-	.work-left {
-		height: 35px;
-	}
-	.work-info h5 {
-		font-size: 13px;
-		padding: 7px 20px;
-		right: 6%;
-		top: -36px;
-	}
-	.work-info .work-right2 h4 {
-		margin-left: 150px;
-	}
-	.work-right.work-right2 h4:before {
-		left: -13px;
-	}
-	.aitsresumewthree h4.title2 {
-		width: 41%;
-	}
-	.work-right.work-right2 {
-		min-height: 35px;
-	}
-	.work-right.work-right2 {
-		height: 35px;
-	}
-	.work-info .work-left2 h5 {
-		top: -36px;
-	}
-	.work-left2 {
-		height: 150px;
-	}
-	#loadMore, #showLess {
-		width: 44%;
-	}
-	.simplefilter li, .multifilter li, .sortandshuffle li {
-		margin: 0 0 15px 0;
-		font-size: 13px;
-	}
-	.portfolio figcaption h3 {
-		margin-top: 80px;
-	}
-}
 
 
 
