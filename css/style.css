@@ -972,6 +972,8 @@ ul.simplefilter {
 	color: #000;
 	padding: 100px 0;
 	text-align: center;
+	top:10px;
+	position: relative;
 }
 #contact p {
 	font-size: 20px;
