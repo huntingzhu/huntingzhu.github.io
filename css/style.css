@@ -968,6 +968,28 @@ ul.simplefilter {
 	-o-background-size: cover;
 	color: #000;
 	padding: 100px 0;
+	text-align: center;
+}
+#contact p {
+	font-size: 20px;
+}
+ul.banner-social-buttons {
+  margin-top: 0;
+}
+@media (max-width: 1199px) {
+  ul.banner-social-buttons {
+    margin-top: 15px;
+  }
+}
+@media (max-width: 767px) {
+  ul.banner-social-buttons li {
+    display: block;
+    margin-bottom: 20px;
+    padding: 0;
+  }
+  ul.banner-social-buttons li:last-child {
+    margin-bottom: 0;
+  }
 }
 
 .contact_form input[type='text'], .contact_form input[type="email"] {
@@ -1398,7 +1420,7 @@ form.contact_form {
 		width: 100%;
 	}
 	.agileabout-grid {
-		width: 40%;
+		width: 33.3%;
 		float: left;
 		padding: 0;
 	}
